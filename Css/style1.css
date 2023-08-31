@@ -1,0 +1,98 @@
+body {
+    margin: 0px;
+    background-color: hsl(0, 0%, 100%);
+    background-image: url('/Images/Smile.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1 {
+    text-align: center;
+
+   
+}
+
+
+#box .fa-solid.fa-lock.fa-2x {
+    padding-top: 20px;
+}
+
+
+
+main { 
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 30px;
+    text-align: center;
+}
+.navigation {
+    position: sticky;
+    top: 0px;
+   
+}
+.navigation ul {
+    list-style-type: none;
+    background-color: rgb(72, 72, 72);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    
+}
+.navigation a{
+   
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    text-align: center;
+}
+.navigation a:hover {
+    background-color:hsl(158, 88%, 48%);
+}
+.navigation li {
+    float: left ;
+}
+
+
+.login {
+    float: right;
+    text-align: center;
+    padding: 8px;
+    cursor: pointer;
+}
+.login a {
+    color:black;
+    display: block;
+    padding: 0px;
+}
+.login a:hover {
+    background-color: rgb(72, 72, 72);
+
+}
+.fa-solid.fa-right-to-bracket.fa-2x:hover {
+    color:rgb(228, 116, 69);
+}
+.icons {
+    text-align: center;
+    text-decoration: none;
+}
+.fa-brands.fa-facebook.fa-3x {
+    color: blue
+}
+.fa-brands.fa-facebook.fa-3x:hover {
+    color: hsl(202, 100%, 50%)
+}
+footer {
+    position: sticky;
+    display: block;
+    text-align: center;
+    margin-top: 100%;  
+    background-color:hsl(151, 84%, 41%);
+    padding: 10px;
+}
+footer label {
+    float: right;
+}
+
+
